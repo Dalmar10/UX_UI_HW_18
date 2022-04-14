@@ -1,0 +1,39 @@
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+   display: inline; 
+}
+.flex-container{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+}
+.pics{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+
+.pics images {  
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+@media (max-width: 600) {
+    p{
+        font: size 1.25rem 
+    }
+   
+    #categoryGrid{
+        grid-template-rows: 300px 300px 300px;
+
+    }
+}
